@@ -3,16 +3,16 @@
 	background-color: rgb(135, 206, 235);
 }
 
-div p:first-child {
+:first-child #p1{
 	background-color: black;
 	color: white;
 }
 
-div p:nth-child(2){
+:nth-child(2) #p2{
 	color: black;
 }
 
-div p:last-child{
+:last-child #p3{
 	color: red;
 }
 
