@@ -22,11 +22,12 @@ ul li:nth-child(odd){
 	background-color: white;
 }
 
-ul li:first-child, li:last-child
+ul li:first-child, li:nth-child(5)
 {
 	font-size: 22px;
 }
 
-ul li:nth-child(3){
+ul li:nth-child(3), li:nth-child(4), li:nth-child(5)
+{
 	background-color: pink;
 }
