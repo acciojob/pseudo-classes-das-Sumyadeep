@@ -8,10 +8,6 @@
 	color: white;
 }
 
-:nth-child(2) #p2{
-	color: black;
-}
-
 :last-child #p4{
 	color: red;
 }
@@ -31,7 +27,7 @@ ul li:first-child, li:last-child
 	font-size: 22px;
 }
 
-ul li:nth-child(n+2)
+ul li:nth-child(n+3)
 {
 	background-color: pink;
 }
