@@ -3,12 +3,15 @@
 	background-color: rgb(135, 206, 235);
 }
 
-:first-child #p1{
+article p:first-child{
 	background-color: black;
 	color: white;
 }
 
-:last-child #p4{
+article p:nth-child(2){
+	color: black;
+}
+article p:last-child{
 	color: red;
 }
 
